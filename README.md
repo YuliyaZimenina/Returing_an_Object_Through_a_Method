@@ -42,3 +42,48 @@ The project was created as a learning playground for practicing:
 - Class `ErrorForMessage`: represents an error with two fields (`errorMessage`, `severity`).
 - Class `ErrorInformation`: returns an object of `ErrorForMessage`.
 - Class `ErrorInfoDemo`: shows usage with different error codes.
+
+## Technologies
+
+- **Java SE** (version 17)
+
+## Installation and Running
+
+1. Clone the perository:
+   
+```bash
+git clone https://github.com/YuliyaZimenina/Returing_an_Object_Through_a_Method.git
+```
+
+2. Open the project in your favorite IDE (Eclipse, IntelliJ IDEA, etc.) or go to the project folder:
+
+```
+cd Returing_an_Object_Through_a_Method
+```
+3. Make sure **Java 17** is set as the project SDK
+4. Compile all classes or run demo-classes (`ErrorInfoDemo.java` or `ErrorMessageDemo.java`) in your IDE or command line.
+
+## Author
+
+[Yuliya Zimenina](https://github.com/YuliyaZimenina)
+
+## Code Example
+
+```java
+// Returning an object of type String
+public class ErrorMessage {
+    String [] message = {
+      "Output Error",
+      "Input Error",
+      "The disk is full",
+      "The index has gone out of bounds."
+    };
+
+    // Method returning error message
+    String getErrorMessage(int i){
+        if (i >= 0 & i < message.length ) return message[i];
+        else return "Non-existing error code";
+    }
+}
+```
+
