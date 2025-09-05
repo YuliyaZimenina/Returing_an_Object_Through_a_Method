@@ -87,3 +87,12 @@ public class ErrorMessage {
 }
 ```
 
+## Screenshots
+
+1. Result of the class `ErrorMessageDemo`:
+
+<img src="images/Output%20ErrorMessageDemo.png" alt="Output ErrorMessageDemo.java" width="450"/>
+
+2. Result of the class `ErrorInfoDemo`:
+
+<img src="images/Output%20ErroInfoDemo.png" alt="Output ErrorInfoDemo.java" width="450"/>
