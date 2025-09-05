@@ -1,4 +1,4 @@
-# Retiring an Object through a Method
+# Returing an Object through a Method
 
 An educational project that demonstrates how to return objects through methods in Java:
 - Returning simple objects (`String`)
